@@ -1,36 +1,36 @@
-import React from 'react';
-import data from "./data.json";
-import Products from './components/Products';
+import React from 'react'
 
-class App extends React.Component {
-  constructor() {
-    super();
-    this.state = {
-      products: data.products,
-      size: "",
-      sort: "",
-    };
-  }
-  render() {
+const App = () => {
   return (
-    <div className="grid-container">
-      <header>
-        <a href="#action">DinduStack</a>
-        <a href="#action">Admin</a>
-      </header>
-      <main>
-        <div className="content">
-          <div className="main">
-            <Products products={this.state.products}></Products>
-          </div>
-          <div className="sidebar">Cart Items</div>
+    <div>
+      Reliable, efficient delivery
+  Powered by Technology
 
-        </div>
-      </main>
-      <footer>&#9400; 2020</footer>
+  Our Artificial Intelligence powered tools use millions of project data points 
+  to ensure that your project is successful
+
+  Supervisor
+  Monitors activity to identify project roadblocks
+
+  Team Builder
+  Scans our talent network to create the optimal team for your project
+
+  Karma
+  Regularly evaluates our talent to ensure quality
+
+  Calculator
+  Uses data from past projects to provide better delivery estimates
+
+  
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#action">Your Name Here</a>.
+    </p>
+  </footer>
       
     </div>
-  )}
+  )
 }
 
 export default App
