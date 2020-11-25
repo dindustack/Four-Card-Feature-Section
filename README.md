@@ -1,1 +1,1 @@
-E-commerce site inspired by Coding with Basir using React-Redux and a branch was created to learn branch with GitHub.
+Four-Card-Feature-Section inspired by www.frontendmentor.io
